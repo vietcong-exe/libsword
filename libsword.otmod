@@ -1,9 +1,9 @@
 Module
-  name: game_bot
-  description: Advanced OTClientV8 Bot
+  name: libsword
+  description: a advanced library for otclientv8
   author: otclient@otclient.ovh
   sandboxed: true
   autoload: true
-  scripts: [ bot ]
+  scripts: [ libsword ]
   @onLoad: init()
   @onUnload: terminate()
